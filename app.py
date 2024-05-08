@@ -66,9 +66,12 @@ with gr.Blocks(css=css) as gpt:
     ---
     ### Meta Information
     **Project Title**: GPT Prompt Generator
+    
     **Github**: [https://github.com/pacnimo/gpt-prompt-generator](https://github.com/pacnimo/gpt-prompt-generator)
+    
     **Description**: GPT Prompt Generator is Free and Easy to Use. Create a GPT Prompt Based on the Profession. 1 Click Prompt Generator.
-    **Footer**: © 2024 by [GitHub](https://github.com/pacnimo/). All rights reserved.
+    
+    **Footer**: © 2024 by [pacnimo](https://github.com/pacnimo/). All rights reserved.
     """) # Meta, project description, and footer added here
 
 gpt.launch(debug=True)
